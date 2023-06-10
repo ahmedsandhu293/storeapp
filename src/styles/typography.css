@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "NB International Pro Regular";
+  src: url("../../public/nb_international_pro_regular-webfont.woff2") format("woff2"), url("../../public/nb_international_pro_regular-webfont.woff") format("woff");
+}
+
+.nav-normal-text, .nav-small-text {
+  font-family: "NB International Pro Regular";
+  color: #1c1d1d;
+  font-smooth: antialiased;
+}
+
+
+.nav-normal-text {
+  font-size: 21px;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-normal-text {
+    font-size: 16px;
+  }
+}
+.nav-small-text {
+  font-family: "NB International Pro Regular";
+  font-size: 16px;
+  color: #1c1d1d;
+  font-smooth: antialiased;
+}

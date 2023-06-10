@@ -1,0 +1,40 @@
+{
+  "resources": [
+    {
+      "title": "Cards",
+      "imageUrl": "../../public/static/images/Mask group.svg"
+    },
+    {
+      "title": "Wearables",
+      "imageUrl": "../../public/static/images/Mask group (1).svg"
+    },
+    {
+      "title": "Customs",
+      "imageUrl": "../../public/static/images/Mask group (2).svg"
+    },
+
+    {
+      "title": "Lead Capture",
+      "imageUrl": "../../public/static/images/Mask group (3).svg"
+    },
+    {
+      "title": "Accessories",
+      "imageUrl": "../../public/static/images/Mask group (4).svg"
+    },
+
+    {
+      "title": "Bundles",
+      "imageUrl": "../../public/static/images/Mask group (5).svg"
+    },
+    {
+      "title": "New Arrivals",
+      "imageUrl": "../../public/static/images/Mask group (6).svg"
+    },
+    {
+      "title": "Limited",
+      "imageUrl": "../../public/static/images/Mask group (7).svg"
+    }
+
+  ]
+}
+

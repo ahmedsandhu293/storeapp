@@ -1,0 +1,14 @@
+@import 'button.css';
+
+@tailwind base;
+@tailwind components;
+
+@import "./typography.css";
+@tailwind utilities;
+
+body {
+    font-family: NB International Pro Regular, serif;
+    letter-spacing: 0.025em;
+    line-height: 1.6;
+    font-size: 16px;
+}

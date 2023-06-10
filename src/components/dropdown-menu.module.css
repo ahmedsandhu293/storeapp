@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) {
+  .dropdownMenu {
+    padding: 0 0.5rem;
+  }
+
+  .dropdownMenuList {
+    box-shadow: 0 10px 20px #00000017;
+    visibility: hidden;
+    transition: all .3s cubic-bezier(.2,.06,.05,.95), visibility 0ms;
+  }
+
+  .dropdownMenu.open a::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    right: 45px;
+    bottom: 0;
+    display: block;
+    background-color: #e8e8e1;
+    height: 1px;
+    z-index: 10;
+  }
+
+  .dropdownMenu {
+      height: fit-content;
+  }
+  .dropdownMenu.open .dropdownMenuList {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .dropdownMenuList {
+    transition: opacity 1s cubic-bezier(.25,.46,.45,.94), height .5s cubic-bezier(.25,.46,.45,.94);
+    background-color: white;
+    opacity: 0;
+    height: 0;
+  }
+  .dropdownMenu.open .dropdownMenuList {
+    opacity: 1;
+    height: fit-content;
+  }
+}
+
+.dropdownMenu.open .dropdownMenuList {
+  visibility: visible;
+  height: fit-content;
+}
